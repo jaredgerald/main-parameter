@@ -1,4 +1,4 @@
-void main(int argv[], int *argc) {
+void main(int argc, int *argv[]) {
 std::cout << argv[0] << std::endl; //own path
 std::cout << argv[1] << std::endl; //first parameter;
 }
